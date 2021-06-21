@@ -1,0 +1,6 @@
+event_brite.settings:
+  title: 'Event Brite Token'
+  route_name: event_brite.outh_token
+  description: 'Enter your Event Brite Token'
+  parent: system.admin_config_development
+  weight: 99

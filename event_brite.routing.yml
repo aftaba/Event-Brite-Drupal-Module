@@ -1,0 +1,7 @@
+event_brite.outh_token:
+  path: '/admin/event-brite-token'
+  defaults:
+    _form: '\Drupal\event_brite\Form\AuthTokenForm'
+    _title: 'Enter your Event Brite Token'
+  requirements:
+    _permission: 'administer site configuration'

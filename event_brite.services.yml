@@ -1,0 +1,5 @@
+services:
+  event_brite.commands:
+    class: \Drupal\event_brite\Commands\EventBriteImportCommand
+    tags:
+      - { name: drush.command }
